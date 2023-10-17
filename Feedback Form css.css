@@ -8,9 +8,9 @@
     /* background-image: url("C:\Users\amish\Downloads\sobaka-ulitsa-drug.jpg"); */
     background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     /* background-image:  linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%); */
-    background-image: url("C:/Users/amish/Downloads/tTI5Fa.jpg");
+    background-image: url("temp/tTI5Fa.jpg");
     
 }
 .navbar{
@@ -158,6 +158,9 @@ margin: 0 auto;
   background-color: #000000;
 }
 
+.feedback{
+    margin-top: -400px;
+}
 
  .container{
    background-color: transparent;
@@ -175,6 +178,7 @@ margin: 0 auto;
   font-size: 18px;
    line-height: 24px;  
    animation:bounce-in 2s ease-in 0s 1 normal;  
+   
 }
 
 
@@ -213,7 +217,7 @@ margin: 0 auto;
         }
 
 
-Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+/*Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .menu a {
     float: none;

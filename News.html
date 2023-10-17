@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <title>News</title>
   <link rel="stylesheet" type="text/css" href="News css.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -56,9 +56,9 @@
             </div>
 
             <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type the text" id="myInput">
-                <a href="https://www.dictionary.com/browse" target="_blank"> <button class="btn" id="myBtn">Search</button></a>
-            </div>
+              <input class="srch" type="search" name="" placeholder="Type the text" id="myInput">
+              <a href="https://www.dictionary.com/browse" target="_blank"> <button class="btn" type="button">Search</button></a>
+          </div>
           </div>
   <div class="slider-container">
       <div class="slide">
@@ -170,12 +170,10 @@ function setPositionByIndex() {
   setSliderPosition()
 }
 </script>
-
 <script>
-     function myFunction() {
-    window.open('file:///C:/Users/amish/Documents/Main%20Project/payment.html'," ",'width=750, height=500');
-            }
+  function myFunction() {
+      window.open('./payment.html'," ",'width=750, height=500');
+  }
 </script>
-
 </body>
 </html>

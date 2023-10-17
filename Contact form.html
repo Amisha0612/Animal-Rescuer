@@ -1,6 +1,7 @@
 <html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>Contact Us</title>
     <link rel="stylesheet" href="Contact form css.css">
      <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -94,7 +95,7 @@
                     <input type="text" name="" placeholder="Full Name">
                     <input type="email" name="email" placeholder="Enter Email Here">
                     <input type="text" name="" placeholder="Type your message">
-                    <button class="btnn" onclick="alert('Message submitted successfully!')"><a href="#">Submit</a></button>
+                    <button type="button" class="btnn" onclick="alert('Message submitted successfully!')"><a href="#">Submit</a></button>
 
                     <div class="icons">
                         <a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -124,9 +125,9 @@ input.addEventListener("keyup", function(event) {
 </script>
 
 <script>
-     function myFunction() {
-    window.open('file:///C:/Users/amish/Documents/Main%20Project/payment.html'," ",'width=750, height=500');
-            }
+    function myFunction() {
+        window.open('./payment.html'," ",'width=750, height=500');
+    }
 </script>
 
 </body>

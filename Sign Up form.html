@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+     <title>Sign Up</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
@@ -77,7 +77,7 @@
 <input type="email" class='input-field' placeholder='Email Id' required >
 <input type='password' class='input-field' placeholder='Enter Password' required>
 <input type='checkbox' class='check-box' required><span style="color: lightgray;">Remember Password</span>
-<button type='submit'class='submit-btn'onclick="alert('You have logged in')"><a href="#" class="loginhome" target="_blank">Log in</a></button>
+<button type='submit'class='submit-btn'onclick="alert('You have logged in')"><a href="Home page.html" class="loginhome" target="_self">Log in</a></button>
 </form>
 
 <form id='signup' class='input-group-signup' action="Home page.html" method="post">
@@ -85,9 +85,9 @@
 <input type='text' class='input-field' placeholder='Last name' required onchange="Uppercase()" id="text">
 <input type='email 'class='input-field' placeholder='Email Id' required>
 <input type='password' class='input-field' placeholder='Create Password' required>
-<input type='text' class='input-field' placeholder='Confirm Password' required>
+<input type='password' class='input-field' placeholder='Confirm Password' required>
 <input type='checkbox' class='check-box' required><span style="color: lightgray;">I agree to the <a href="Terms and Conditions.html" class="terms">terms and conditions</a></span>
-<button type='submit' class='submit-btn' onclick="alert('You have signed up successfully')"><a href="#" class="loginhome" target="_blank">Sign Up</a></button>
+<button type='submit' class='submit-btn' onclick="alert('You have signed up successfully')"><a href="Home page.html" class="loginhome" target="_self">Sign Up</a></button>
 </form>
 
 </div>
@@ -131,9 +131,9 @@ input.addEventListener("keyup", function(event) {
 
 
 <script>
-     function myFunction() {
-    window.open('file:///C:/Users/amish/Documents/Main%20Project/payment.html'," ",'width=750, height=500');
-            }
+    function myFunction() {
+        window.open('./payment.html'," ",'width=750, height=500');
+    }
 </script>
 
 </body>

@@ -9,7 +9,7 @@
     background-size: cover;
     height: 100%;
     position: absolute;
-    background-image:  linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%), url("C:/Users/amish/Downloads/little-plant-in-a-bubble-plant-in-round-glass-decor-wallpaper-preview.jpg");
+    background-image:  linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%), url("temp/little-plant-in-a-bubble-plant-in-round-glass-decor-wallpaper-preview.jpg");
 }
 .navbar{
     width: 100%;
@@ -246,7 +246,7 @@ background: transparent;
 color: white;
 }
 ::placeholder{
-    color: #lightgray;
+    color: lightgray;
     font-family: Arial;
 }
 .submit-btn{

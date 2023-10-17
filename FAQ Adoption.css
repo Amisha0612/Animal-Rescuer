@@ -78,7 +78,7 @@ flex-direction: column;
     /* background-position: center; */
     background-size: cover;
     height: 100%;
-    background-image: url("C:/Users/amish/Downloads/original.jpg");
+    background-image: url("temp/original.jpg");
     /*background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.5)), url("C:/Users/amish/Downloads/sobaka-ulitsa-drug.jpg");*/
     /*background: #525252;*/
 }
